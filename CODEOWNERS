@@ -130,6 +130,7 @@ filebeat @predominant
 gdk-pixbuf @rsertelon
 glib @rsertelon
 go @afiune @nellshamrell
+gocd-server @predominant
 grpcurl @afiune
 gtk2 @rsertelon
 harfbuzz @rsertelon
@@ -153,6 +154,7 @@ nano @predominant
 nmap @defilan
 nuget @mwrock
 optipng @predominant
+p4broker @dbhagen
 pango @rsertelon
 pngquant @predominant
 postgresql-client @joshbrand @irvingpop
