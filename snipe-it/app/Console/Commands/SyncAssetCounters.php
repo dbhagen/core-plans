@@ -45,7 +45,7 @@ class SyncAssetCounters extends Command
         if ($assets) {
             if ($assets->count() > 0) {
                 $bar = $this->output->createProgressBar($assets->count());
-                
+
                 foreach ($assets as $asset) {
                     $asset->checkin_counter = (int) $asset->checkins_count;
                     $asset->checkout_counter = (int) $asset->checkouts_count;

@@ -117,7 +117,7 @@ class Supplier extends SnipeModel
     {
 
         return $query->where(function ($query) use ($search) {
-        
+
             $query->where('name', 'LIKE', '%'.$search.'%');
         });
     }

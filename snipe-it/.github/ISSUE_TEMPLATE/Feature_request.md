@@ -5,10 +5,10 @@ about: Suggest an idea for this project
 ---
 
 **Server (please complete the following information):**
- - Snipe-IT Version 
+ - Snipe-IT Version
  - OS: [e.g. Ubuntu, CentOS]
  - Web Server: [e.g. Apache, IIS]
- - PHP Version 
+ - PHP Version
 
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]

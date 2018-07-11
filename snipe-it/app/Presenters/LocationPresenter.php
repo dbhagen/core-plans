@@ -192,7 +192,7 @@ class LocationPresenter extends Presenter
     {
         return '<i class="fa fa-map-marker"></i>';
     }
-    
+
     public function fullName() {
         return $this->name;
     }

@@ -64,7 +64,7 @@ final class Company extends SnipeModel
         }
 
         $table = ($table_name) ? DB::getTablePrefix().$table_name."." : '';
-        return $query->where($table.$column, '=', $company_id); 
+        return $query->where($table.$column, '=', $company_id);
     }
 
     public static function getIdFromInput($unescaped_input)

@@ -2,7 +2,7 @@
 
 {{-- Page title --}}
 @section('title')
-{{ trans('general.depreciation_report') }} 
+{{ trans('general.depreciation_report') }}
 @parent
 @stop
 

@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'ek het my wagwoord vergeet',
     'remember_me'                   => 'Onthou my',
     ];
-

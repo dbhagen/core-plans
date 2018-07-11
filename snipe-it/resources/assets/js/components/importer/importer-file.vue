@@ -60,7 +60,7 @@ tr {
         <td>
             <button type="button" class="btn btn-sm btn-default" @click="processDetail = false">Cancel</button>
             <button type="submit" class="btn btn-sm btn-primary" @click="postSave">Import</button>
-            <div 
+            <div
                 class="alert col-md-5 col-md-offset-1"
                 :class="alertClass"
                 style="text-align:left"

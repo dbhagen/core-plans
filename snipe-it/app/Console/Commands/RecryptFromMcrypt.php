@@ -16,7 +16,7 @@ class RecryptFromMcrypt extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:legacy-recrypt 
+    protected $signature = 'snipeit:legacy-recrypt
                 {--force : Force a re-crypt of encrypted data from MCRYPT.}';
 
     /**
@@ -67,7 +67,7 @@ class RecryptFromMcrypt extends Command
         } else {
             $legacy_length_check = false;
         }
-   
+
 
 
         // Check that the app key is 32 characters

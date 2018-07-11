@@ -81,7 +81,7 @@ class ItemImporter extends Importer
      * Parse row to determine what (if anything) we should checkout to.
      * @param  array $row CSV Row being parsed
      * @return SnipeModel      Model to be checked out to
-     */ 
+     */
     protected function determineCheckout($row)
     {
         // We only supporty checkout-to-location for asset, so short circuit otherw.

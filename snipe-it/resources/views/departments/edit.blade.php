@@ -38,4 +38,3 @@
     @include ('partials.forms.edit.image-upload')
 
 @stop
-

@@ -36,7 +36,7 @@ class ManufacturerSeeder extends Seeder
             copy($add_file, $file_to_copy);
         }
 
-        
+
     }
 
 

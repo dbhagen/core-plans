@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Нууц үгээ мартсан',
     'remember_me'                   => 'Намайг сана',
     ];
-

@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Aš pamiršau savo slaptažodį',
     'remember_me'                   => 'Prisiminti mane',
     ];
-

@@ -78,7 +78,7 @@ class CheckinAssetNotification extends Notification
             trans('general.status') => $item->assetstatus->name,
             trans('general.location') => ($item->location) ? $item->location->name : '',
         ];
-        
+
         return (new SlackMessage)
             ->content(':arrow_down: :computer: Asset Checked In')
             ->from($botname)

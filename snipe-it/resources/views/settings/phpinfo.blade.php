@@ -31,7 +31,7 @@
 
                     # $matches [1]; # Style information
                     # $matches [2]; # Body information
-                        
+
                     echo "<div class='phpinfodisplay'><style type='text/css'>\n",
                     join( "\n",
                         array_map(

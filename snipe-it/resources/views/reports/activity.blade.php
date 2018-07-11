@@ -2,7 +2,7 @@
 
 {{-- Page title --}}
 @section('title')
-{{ trans('general.activity_report') }} 
+{{ trans('general.activity_report') }}
 @parent
 @stop
 

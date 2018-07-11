@@ -64,7 +64,7 @@ class RegenerateAssetTags extends Command
             }
 
             foreach ($total_assets as $asset) {
-                
+
                 $start_tag++;
                 $output['info'][] = 'Asset tag:'.$asset->asset_tag;
                 $asset->asset_tag = $settings->auto_increment_prefix.$settings->auto_increment_prefix.$start_tag;

@@ -15,7 +15,7 @@ class AddFieldsetIdToAssets extends Migration {
 		Schema::table('models', function (Blueprint $table) {
 			$table->integer('fieldset_id')->nullable();
 		});
-		
+
 	}
 
 	/**

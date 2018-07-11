@@ -83,7 +83,7 @@ Route::group(['middleware' => 'auth'], function () {
 |--------------------------------------------------------------------------
 |
 | Routes for various modal dialogs to interstitially create various things
-| 
+|
 */
 
 Route::group(['middleware' => 'auth','prefix' => 'modals'], function () {
@@ -466,6 +466,3 @@ Route::group(['middleware' => 'web'], function () {
 });
 
 Auth::routes();
-
-
-

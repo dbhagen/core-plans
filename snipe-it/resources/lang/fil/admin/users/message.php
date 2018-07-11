@@ -38,7 +38,7 @@ return array(
         'accept_or_decline' => 'Dapat mong tanggapin o kaya tanggihan ang asset na ito.',
         'incorrect_user_accepted' => 'Ang asset na tinangka mong tanggapin ay hindi nai-check out sa iyo.',
         'ldap_could_not_connect' => 'Hindi maka-konekta sa serber ng LDAP. Mangyaring surrin ang iyong konpigurasyon ng serber ng LDAP sa LDAP config file. <br>May error mula sa Serber ng LDAP:',
-        'ldap_could_not_bind' => 'Hindi makapah-bind sa serber ng LDAP. Mangyaring suriin ang iyong konpigurasyon ng serber ng LDAP sa LDAP config file. <br>may error mula sa Serber ng LDAP: 
+        'ldap_could_not_bind' => 'Hindi makapah-bind sa serber ng LDAP. Mangyaring suriin ang iyong konpigurasyon ng serber ng LDAP sa LDAP config file. <br>may error mula sa Serber ng LDAP:
  ',
         'ldap_could_not_search' => 'Hindi makapaghanap ng serber ng LDAP. Mangyaring suriin ang iyong konpigurasyon ng serber ng LDAP sa LDAP config file. <br>may error mula sa Serber ng LDAP:',
         'ldap_could_not_get_entries' => 'Hindi makakuha ng entry mula sa serber ng LDAP. Mangyaring surrin ang iyong konpigurasyon ng serber ng LDAP sa LDAP config file. <br>May-error mula sa Serber ng LDAP:',

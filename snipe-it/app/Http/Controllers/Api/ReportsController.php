@@ -51,7 +51,7 @@ class ReportsController extends Controller
             'action_type',
             'note'
         ];
-        
+
         $sort = in_array($request->input('sort'), $allowed_columns) ? e($request->input('sort')) : 'created_at';
         $order = ($request->input('order') == 'asc') ? 'asc' : 'desc';
         $offset = request('offset', 0);

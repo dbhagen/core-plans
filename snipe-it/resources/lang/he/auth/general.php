@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'שכחתי את הסיסמא שלי',
     'remember_me'                   => 'זכור אותי',
     ];
-

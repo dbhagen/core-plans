@@ -57,6 +57,3 @@ $factory->state(App\Models\Department::class, 'silly', function ($faker) {
         'name' => 'Dept of Silly Walks',
     ];
 });
-
-
-

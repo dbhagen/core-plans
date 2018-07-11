@@ -130,7 +130,7 @@
                         if(transformed_oldvals[elem.name]) {
                             $(elem).val(transformed_oldvals[elem.name]).trigger('change'); //the trigger is for select2-based objects, if we have any
                         }
-                        
+
                     });
                 }
             });

@@ -2,7 +2,7 @@
 
 {{-- Page title --}}
 @section('title')
-{{ trans('admin/manufacturers/table.asset_manufacturers') }} 
+{{ trans('admin/manufacturers/table.asset_manufacturers') }}
 @parent
 @stop
 

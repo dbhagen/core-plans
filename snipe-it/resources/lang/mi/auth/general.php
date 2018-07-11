@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Kua wareware ahau ki taku kupuhipa',
     'remember_me'                   => 'Kia mahara ki ahau',
     ];
-

@@ -26,7 +26,7 @@ class RenameModelNoteToNotes extends Migration
     public function down()
     {
         Schema::table('models', function (Blueprint $table) {
-            //            
+            //
             $table->renameColumn('notes', 'note');
         });
     }

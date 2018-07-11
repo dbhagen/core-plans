@@ -22,7 +22,7 @@ class CustomFieldset extends Model
      */
     protected $injectUniqueIdentifier = true;
     use ValidatingTrait;
-    
+
 
     public function fields()
     {

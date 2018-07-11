@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Saya lupa kata sandi saya',
     'remember_me'                   => 'Ingatkan saya',
     ];
-

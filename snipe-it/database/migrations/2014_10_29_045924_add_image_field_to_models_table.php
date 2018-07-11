@@ -11,9 +11,9 @@ class AddImageFieldToModelsTable extends Migration {
 	 * @return void
 	 */
 	public function up()
-	{	
-		Schema::table('models', function(Blueprint $table) {		
-			
+	{
+		Schema::table('models', function(Blueprint $table) {
+
 			$table->string('image')->nullable();
 
 		});

@@ -14,4 +14,3 @@
         <img id="imagePreview" style="max-width: 200px;">
     </div>
 </div>
-

@@ -56,4 +56,3 @@
       'columns' => \App\Presenters\CategoryPresenter::dataTableLayout()
   ])
 @stop
-

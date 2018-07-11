@@ -10,7 +10,7 @@ use App\Helpers\Helper;
  */
 class AssetModelPresenter extends Presenter
 {
-    
+
     /**
      * Formatted note for this model
      * @return string

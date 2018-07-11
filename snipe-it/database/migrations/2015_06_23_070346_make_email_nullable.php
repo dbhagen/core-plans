@@ -27,7 +27,7 @@ class MakeEmailNullable extends Migration {
 	public function down()
 	{
 		//
-		
+
 	}
 
 }

@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'unohdin salasanani',
     'remember_me'                   => 'Muista minut',
     ];
-

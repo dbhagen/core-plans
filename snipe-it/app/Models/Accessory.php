@@ -83,7 +83,7 @@ class Accessory extends SnipeModel
     {
         return $this->belongsTo('\App\Models\Supplier', 'supplier_id');
     }
-    
+
 
     public function setRequestableAttribute($value)
     {

@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Es aizmirsu savu paroli',
     'remember_me'                   => 'Atceries mani',
     ];
-

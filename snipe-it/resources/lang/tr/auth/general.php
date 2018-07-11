@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Şifremi unuttum',
     'remember_me'                   => 'Beni hatırla',
     ];
-

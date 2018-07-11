@@ -6,7 +6,7 @@ about: Create a report to help us improve
 
 #### Please confirm you have done the following before posting your bug report:
 
-- [ ] I have enabled debug mode 
+- [ ] I have enabled debug mode
 - [ ] I have read [checked the Common Issues page](https://snipe-it.readme.io/docs/common-issues)
 
 **Describe the bug**
@@ -26,10 +26,10 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Server (please complete the following information):**
- - Snipe-IT Version 
+ - Snipe-IT Version
  - OS: [e.g. Ubuntu, CentOS]
  - Web Server: [e.g. Apache, IIS]
- - PHP Version 
+ - PHP Version
 
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
@@ -50,7 +50,7 @@ If applicable, add screenshots to help explain your problem.
 - Include any additional information you can find in `storage/logs` and your webserver's logs.
 
 **Additional context**
-- Is this a fresh install or an upgrade? 
+- Is this a fresh install or an upgrade?
 - What OS and web server you're running Snipe-IT on
 - What method you used to install Snipe-IT (install.sh, manual installation, docker, etc)
 - Include what you've done so far in the installation, and if you got any error messages along the way.

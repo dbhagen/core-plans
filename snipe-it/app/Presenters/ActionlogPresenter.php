@@ -51,7 +51,7 @@ class ActionlogPresenter extends Presenter
             $itemicon  = 'fa fa-floppy-o';
         } elseif ($this->itemType()=="component") {
             $itemicon  = 'fa fa-hdd-o';
-        } 
+        }
 
         return $itemicon;
     }
@@ -71,7 +71,7 @@ class ActionlogPresenter extends Presenter
         if ($this->action_type=='uploaded') {
             $target = $this->model->item;
         } elseif (($this->action_type=='accepted') || ($this->action_type=='declined')) {
-        // If we are logging an accept/reject, the target is not stored directly, 
+        // If we are logging an accept/reject, the target is not stored directly,
         // so we access it through who the item is assigned to.
         // FIXME: On a reject it's not assigned to anyone.
             $target = $this->model->item->assignedTo;
@@ -80,7 +80,7 @@ class ActionlogPresenter extends Presenter
                 $target = $this->model->user;
             }
         } elseif ($this->model->target) {
-        // Otherwise, we'll just take the target of the log.   
+        // Otherwise, we'll just take the target of the log.
             $target = $this->model->target;
         }
 

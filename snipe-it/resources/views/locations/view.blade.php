@@ -5,7 +5,7 @@
 
  {{ trans('general.location') }}:
  {{ $location->name }}
- 
+
 @parent
 @stop
 

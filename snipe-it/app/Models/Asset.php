@@ -191,7 +191,7 @@ class Asset extends Depreciable
                 $this->location_id = $target->location->id;
             }
         }
-        
+
 
         if ($this->save()) {
             $this->logCheckout($note, $target);

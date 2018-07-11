@@ -65,5 +65,3 @@
             @include ('partials.bootstrap-table')
 
         @stop
-
-

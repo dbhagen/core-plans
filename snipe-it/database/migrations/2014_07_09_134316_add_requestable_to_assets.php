@@ -34,4 +34,3 @@ class AddRequestableToAssets extends Migration {
 	}
 
 }
-

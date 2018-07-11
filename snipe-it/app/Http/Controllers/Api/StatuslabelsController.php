@@ -103,7 +103,7 @@ class StatuslabelsController extends Controller
     {
         $this->authorize('edit', Statuslabel::class);
         $statuslabel = Statuslabel::findOrFail($id);
-        
+
         $request->except('deployable', 'pending','archived');
 
         if (!$request->has('type')) {
@@ -177,7 +177,7 @@ class StatuslabelsController extends Controller
             }
         }
 
-        
+
         $colors_array = array_merge($colors, Helper::chartColors());
 
         $result= [

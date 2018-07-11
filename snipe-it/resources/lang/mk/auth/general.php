@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Ја заборавив мојата лозинка',
     'remember_me'                   => 'Запомни ме',
     ];
-

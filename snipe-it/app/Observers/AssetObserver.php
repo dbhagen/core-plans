@@ -42,13 +42,13 @@ class AssetObserver
             $logAction->log_meta = json_encode($changed);
             $logAction->logaction('update');
 
-        } 
+        }
 
     }
 
 
     /**
-     * Listen to the Asset created event, and increment 
+     * Listen to the Asset created event, and increment
      * the next_auto_tag_base value in the settings table when i
      * a new asset is created.
      *

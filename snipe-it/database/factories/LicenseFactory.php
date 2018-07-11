@@ -37,7 +37,7 @@ $factory->state(App\Models\License::class, 'photoshop', function ($faker) {
         'maintained' => true,
         'category_id' => 14,
     ];
-    
+
     return $data;
 
 });
@@ -52,7 +52,7 @@ $factory->state(App\Models\License::class, 'acrobat', function ($faker) {
         'seats' => 10,
         'category_id' => 14,
     ];
-    
+
 
     return $data;
 });
@@ -66,7 +66,7 @@ $factory->state(App\Models\License::class, 'indesign', function ($faker) {
         'seats' => 10,
         'category_id' => 14,
     ];
-    
+
 
     return $data;
 });
@@ -85,5 +85,3 @@ $factory->state(App\Models\License::class, 'office', function ($faker) {
 
     return $data;
 });
-
-

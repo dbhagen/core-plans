@@ -23,7 +23,7 @@ class SuppliersController extends Controller
     {
         $this->authorize('view', Supplier::class);
         $allowed_columns = ['id','name','address','phone','contact','fax','email','image','assets_count','licenses_count', 'accessories_count'];
-        
+
         $suppliers = Supplier::select(
                 array('id','name','address','address2','city','state','country','fax', 'phone','email','contact','created_at','updated_at','deleted_at','image','notes')
             )->withCount('assets')->withCount('licenses')->withCount('accessories')->whereNull('deleted_at');

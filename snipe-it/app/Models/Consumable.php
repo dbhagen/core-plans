@@ -184,7 +184,7 @@ class Consumable extends SnipeModel
         $search = explode(' ', $search);
 
         return $query->where(function ($query) use ($search) {
-        
+
             foreach ($search as $search) {
                     $query->whereHas('category', function ($query) use ($search) {
                         $query->where('categories.name', 'LIKE', '%'.$search.'%');

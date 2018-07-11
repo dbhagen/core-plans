@@ -208,7 +208,7 @@ class Helper
         return array('' => trans('general.select_department')) + $departments->pluck('name', 'id')->toArray();
 
     }
-    
+
 
     /**
      * Get the list of suppliers in an array to make a dropdown menu

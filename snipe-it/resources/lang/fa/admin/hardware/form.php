@@ -22,7 +22,7 @@ return array(
     'date'				=> 'تاریخ خرید
 ',
     'depreciation'	    => 'استهلاک',
-    'depreciates_on'	=> 'مستهلک کردن 
+    'depreciates_on'	=> 'مستهلک کردن
 ',
     'default_location'	=> ' پیش فرض محل سکونت
 ',

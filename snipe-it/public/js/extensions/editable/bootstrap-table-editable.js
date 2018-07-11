@@ -89,7 +89,7 @@
                     var data = that.getData(),
                         index = $(this).parents('tr[data-index]').data('index'),
                         row = data[index];
-                    
+
                     that.trigger('editable-shown', column.field, row, $(this), editable);
                 });
             that.$body.find('a[data-name="' + column.field + '"]').editable(column.editable)
@@ -97,7 +97,7 @@
                     var data = that.getData(),
                         index = $(this).parents('tr[data-index]').data('index'),
                         row = data[index];
-                    
+
                     that.trigger('editable-hidden', column.field, row, $(this), reason);
                 });
         });

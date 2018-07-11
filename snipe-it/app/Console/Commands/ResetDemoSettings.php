@@ -70,7 +70,7 @@ class ResetDemoSettings extends Command
             $user->save();
         }
 
-        
+
     }
 
 }

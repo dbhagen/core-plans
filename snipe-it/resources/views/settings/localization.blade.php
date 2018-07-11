@@ -100,4 +100,3 @@
     {{Form::close()}}
 
 @stop
-

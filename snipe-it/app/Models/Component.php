@@ -26,7 +26,7 @@ class Component extends SnipeModel
     public static $checkoutClass = null;
     public static $checkinClass = null;
 
-    
+
     /**
     * Category validation rules
     */

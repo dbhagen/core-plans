@@ -458,7 +458,7 @@ class LicensesController extends Controller
         }
         return redirect()->route('licenses.index')->with('error', trans('admin/licenses/message.does_not_exist', compact('id')));
     }
-    
+
 
     public function getClone($licenseId = null)
     {

@@ -9,4 +9,3 @@ return [
     'forgot_password'               => '忘記密碼',
     'remember_me'                   => '記住我',
     ];
-

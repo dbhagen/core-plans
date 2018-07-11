@@ -44,7 +44,7 @@ class CompanyPresenter extends Presenter
                 "sortable" => true,
                 "title" => '<span class="hidden-xs"><i class="fa fa-users"></i></span><span class="hidden-md hidden-lg">'.trans('general.users').'</span></th>',
                 "visible" => true,
- 
+
             ],[
                 "field" => "assets_count",
                 "searchable" => false,

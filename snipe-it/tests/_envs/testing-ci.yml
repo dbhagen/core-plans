@@ -16,4 +16,3 @@ modules:
     Laravel5:
       part: ORM
       environment_file: .env
-

@@ -65,7 +65,7 @@ class SettingsController extends Controller
             $validation_errors = implode(' ',$validator->errors()->all());
             return response()->json(['message' => $validator->errors()->all()], 400);
         }
-        
+
 
         \Log::debug('Preparing to test LDAP login');
         try {

@@ -162,6 +162,3 @@ echo "--------------------------------------------------------\n";
 echo "FINISHED! Clear your browser cookies and re-login to use :\n";
 echo "your upgraded Snipe-IT.\n";
 echo "--------------------------------------------------------\n\n";
-
-
-

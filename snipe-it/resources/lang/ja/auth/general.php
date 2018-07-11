@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'パスワードを忘れました',
     'remember_me'                   => 'ログイン状態を維持する',
     ];
-

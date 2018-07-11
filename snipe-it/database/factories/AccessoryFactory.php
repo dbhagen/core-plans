@@ -67,4 +67,3 @@ $factory->state(App\Models\Accessory::class, 'microsoft-mouse', function ($faker
     ];
 
 });
-

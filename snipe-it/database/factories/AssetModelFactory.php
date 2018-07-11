@@ -265,9 +265,3 @@ $factory->state(App\Models\AssetModel::class, 'ultrasharp', function ($faker) {
         'image' => 'ultrasharp.jpg',
     ];
 });
-
-
-
-
-
-

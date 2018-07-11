@@ -82,7 +82,7 @@ class Location extends SnipeModel
            definitely was setting fire to the query-planner. So don't do that.
 
            It is arguable that we should have a '...->whereNull('assigned_to')
-           bit in there, but that isn't always correct either (in the case 
+           bit in there, but that isn't always correct either (in the case
            where a user has no location, for example).
 
            In all likelyhood, we need to denorm an "effective_location" column

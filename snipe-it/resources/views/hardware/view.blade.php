@@ -225,7 +225,7 @@
                       </td>
                     </tr>
 
-                    
+
                     <tr>
                       <td>
                         {{ trans('admin/hardware/form.model') }}

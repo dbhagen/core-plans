@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Nakalimutan ko ang aking password',
     'remember_me'                   => 'Tandaan ako',
     ];
-

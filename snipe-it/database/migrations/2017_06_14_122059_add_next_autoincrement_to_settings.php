@@ -7,7 +7,7 @@ use App\Models\Asset;
 
 class AddNextAutoincrementToSettings extends Migration
 {
-    
+
 
     /**
      * Run the migrations.

@@ -477,7 +477,7 @@ class AssetsController extends Controller
             if ($target->location_id!='') {
                 $asset->location_id = ($target) ? $target->location_id : '';
             }
-            
+
         } elseif (request('checkout_to_type')=='user') {
             // Fetch the target and set the asset's new location_id
             $target = User::find(request('assigned_user'));
@@ -575,7 +575,7 @@ class AssetsController extends Controller
         }
 
         $asset->location_id = $asset->rtd_location_id;
-        
+
         if (Input::has('location_id')) {
             $asset->location_id =  e(Input::get('location_id'));
         }
@@ -1103,9 +1103,9 @@ class AssetsController extends Controller
     public function postBulkSave(Request $request)
     {
         $this->authorize('update', Asset::class);
-        
+
         \Log::debug($request->input('ids'));
-        
+
         if (($request->has('ids')) && (count($request->input('ids')) > 0)) {
             $assets = $request->input('ids');
             if (($request->has('purchase_date'))
@@ -1157,7 +1157,7 @@ class AssetsController extends Controller
                             $update_array['location_id'] = $request->input('rtd_location_id');
                         }
                     }
-                    
+
                     if ($request->has('status_id')) {
                         $update_array['status_id'] = $request->input('status_id');
                     }
@@ -1251,7 +1251,7 @@ class AssetsController extends Controller
 
         $errors = [];
         DB::transaction(function () use ($target, $admin, $checkout_at, $expected_checkin, $errors, $asset_ids) {
-          
+
             foreach ($asset_ids as $asset_id) {
                 $asset = Asset::find($asset_id);
                 $this->authorize('checkout', $asset);

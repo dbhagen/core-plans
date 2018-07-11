@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Ngikhohliwe iphasiwedi yami',
     'remember_me'                   => 'Ngikhumbule',
     ];
-

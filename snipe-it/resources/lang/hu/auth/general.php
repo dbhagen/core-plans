@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Elfelejtettem a jelszavam',
     'remember_me'                   => 'Emlékezzen rám',
     ];
-

@@ -33,7 +33,7 @@ class FixCustomFieldsRegexes extends Migration
             }
             $custom_field->save();
         }
-		
+
     }
 
     /**

@@ -2,7 +2,7 @@
 
 {{-- Page title --}}
 @section('title')
-{{ trans('general.license_report') }} 
+{{ trans('general.license_report') }}
 @parent
 @stop
 

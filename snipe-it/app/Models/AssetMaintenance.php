@@ -140,7 +140,7 @@ class AssetMaintenance extends Model implements ICompanyableChild
    * BEGIN QUERY SCOPES
    * -----------------------------------------------
    **/
-    
+
 
     /**
       * Query builder scope to search on text

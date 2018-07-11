@@ -75,7 +75,7 @@
                                 </label>
 
                                     <p class="help-block" id="upload-file-status">{{ trans('general.image_filetypes_help', ['size' => \App\Helpers\Helper::file_upload_max_size_readable()]) }}</p>
-                                
+
                                 {!! $errors->first('image', '<span class="alert-msg">:message</span>') !!}
                                 {{ Form::checkbox('clear_logo', '1', Input::old('clear_logo'),array('class' => 'minimal')) }} Remove
                                @endif

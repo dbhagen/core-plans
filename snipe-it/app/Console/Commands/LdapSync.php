@@ -67,10 +67,10 @@ class LdapSync extends Command
 
         $summary = array();
 
-        try {    
+        try {
             if ($this->option('base_dn') != '') {
                 $search_base = $this->option('base_dn');
-                LOG::debug('Importing users from specified base DN: \"'.$search_base.'\".');                
+                LOG::debug('Importing users from specified base DN: \"'.$search_base.'\".');
             } else {
                 $search_base = null;
             }
@@ -106,7 +106,7 @@ class LdapSync extends Command
             // Retrieve locations with a mapped OU, and sort them from the shallowest to deepest OU (see #3993)
             $ldap_ou_locations = Location::where('ldap_ou', '!=', '')->get()->toArray();
             $ldap_ou_lengths = array();
-            
+
             foreach ($ldap_ou_locations as $location) {
                 $ldap_ou_lengths[] = strlen($location["ldap_ou"]);
             }

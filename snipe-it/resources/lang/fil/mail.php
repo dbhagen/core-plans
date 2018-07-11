@@ -37,7 +37,7 @@ return array(
     'hi' => 'Kumusta',
     'i_have_read' => 'Ako ay nakabasa ay sumasang-ayon sa mga tuntunin ng paggamit, at ang aytem na ito ay aking tinatanggap.',
     'item' => 'Aytem:',
-    'items_below_minimum' => '{1} ang aytem na mababa sa minimum na imbentaryo o malapit nang maging mababa.|[2,Inf] ang mga aytem na mababa sa minimum na 
+    'items_below_minimum' => '{1} ang aytem na mababa sa minimum na imbentaryo o malapit nang maging mababa.|[2,Inf] ang mga aytem na mababa sa minimum na
                               imbentaryo o malapit nang maging mababa.',
     'Item_Request_Canceled' => 'Ang Rekwest na Aytem ay Nakansela',
     'Item_Requested' => 'Ang Nirekwest na Aytem',

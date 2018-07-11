@@ -408,7 +408,7 @@ class AssetModelsController extends Controller
      */
     public function postBulkEdit(Request $request)
     {
-        
+
         $models_raw_array = Input::get('ids');
 
         // Make sure some IDs have been selected
@@ -481,7 +481,7 @@ class AssetModelsController extends Controller
         }
 
 
-        
+
         if (count($update_array) > 0) {
             AssetModel::whereIn('id', $models_raw_array)->update($update_array);
             return redirect()->route('models.index')

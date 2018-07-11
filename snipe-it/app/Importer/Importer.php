@@ -193,7 +193,7 @@ abstract class Importer
 
     /**
      * Used to lowercase header values to ensure we're comparing values properly.
-     * 
+     *
      * @param $results
      * @return array
      */

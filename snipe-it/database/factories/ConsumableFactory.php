@@ -54,6 +54,3 @@ $factory->state(App\Models\Consumable::class, 'ink', function ($faker) {
         'min_amt' => 2
     ];
 });
-
-
-

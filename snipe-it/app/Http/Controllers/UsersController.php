@@ -551,7 +551,7 @@ class UsersController extends Controller
             if (($key = array_search(Auth::user()->id, $user_raw_array)) !== false) {
                 unset($user_raw_array[$key]);
             }
-            
+
 
             if (!config('app.lock_passwords')) {
 
@@ -865,7 +865,7 @@ class UsersController extends Controller
                                 if ($newuser['email']) {
                                     $user = User::where('username', $row[2])->first();
                                     $user->notify(new WelcomeNotification($data));
-                                    
+
                                     /*Mail::send('emails.send-login', $data, function ($m) use ($newuser) {
                                         $m->to($newuser['email'], $newuser['first_name'] . ' ' . $newuser['last_name']);
                                         $m->replyTo(config('mail.reply_to.address'), config('mail.reply_to.name'));
@@ -1058,7 +1058,7 @@ class UsersController extends Controller
             return redirect()->route('ldap/user')->with('success', "LDAP Import successful.")->with('summary', $ldap_results['summary']);
         }
     }
-    
+
 
     /**
      * Exports users to CSV

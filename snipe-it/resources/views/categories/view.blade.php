@@ -89,7 +89,7 @@
                 data-sort-order="asc"
                 class="table table-striped snipe-table"
                 data-url="{{ route('api.'.$category_type_route.'.index',['category_id'=> $category->id]) }}">
-            
+
       </table>
 
       </div>

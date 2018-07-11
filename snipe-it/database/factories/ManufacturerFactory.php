@@ -129,6 +129,3 @@ $factory->state(App\Models\Manufacturer::class, 'crucial', function ($faker) {
         'image' => 'crucial.jpg',
     ];
 });
-
-
-

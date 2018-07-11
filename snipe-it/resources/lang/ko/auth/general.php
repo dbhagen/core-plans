@@ -9,4 +9,3 @@ return [
     'forgot_password'               => '비밀번호 분실했습니다',
     'remember_me'                   => '자동 로그인',
     ];
-

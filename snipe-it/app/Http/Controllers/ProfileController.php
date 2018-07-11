@@ -55,7 +55,7 @@ class ProfileController extends Controller
         if ((Gate::allows('self.two_factor')) && ((Setting::getSettings()->two_factor_enabled=='1') && (!config('app.lock_passwords')))) {
             $user->two_factor_optin = Input::get('two_factor_optin', '0');
         }
-        
+
         if (Input::file('avatar')) {
             $image = Input::file('avatar');
             $file_name = str_slug($user->first_name."-".$user->last_name).".".$image->getClientOriginalExtension();
@@ -129,7 +129,7 @@ class ProfileController extends Controller
             if (!Hash::check($request->input('current_password'), $user->password)) {
                 $validator->errors()->add('current_password', trans('validation.hashed_pass'));
             }
-            
+
         });
 
         if (!$validator->fails()) {

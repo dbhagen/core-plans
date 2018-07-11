@@ -11,9 +11,9 @@ class AddImageToSupplier extends Migration {
 	 * @return void
 	 */
 	public function up()
-	{	
-		Schema::table('suppliers', function(Blueprint $table) {		
-			
+	{
+		Schema::table('suppliers', function(Blueprint $table) {
+
 			$table->string('image')->nullable();
 
 		});

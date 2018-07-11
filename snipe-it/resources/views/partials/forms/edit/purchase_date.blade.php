@@ -9,4 +9,3 @@
        {!! $errors->first('purchase_date', '<span class="alert-msg"><i class="fa fa-times"></i> :message</span>') !!}
    </div>
 </div>
-

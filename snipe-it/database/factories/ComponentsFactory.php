@@ -61,6 +61,3 @@ $factory->state(App\Models\Component::class, 'ssd-crucial240', function ($faker)
         'min_amt' => 2
     ];
 });
-
-
-

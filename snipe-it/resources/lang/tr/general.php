@@ -67,7 +67,7 @@
     'date'					=> 'Tarih',
     'debug_warning'         => 'Uyarı!',
     'debug_warning_text'    => 'Bu uygulama, hata ayıklamanın etkin olduğu üretim modunda çalışıyor. Bu, hassas verilerinizi, uygulamanıza dış dünyadan erişebilirse ortaya çıkarabilir. Ayarını yaparak hata ayıklama modunu devre dışı bırakın.  <code>APP_DEBUG</code> value in your <code>.env</code> file to <code>false</code>.
- 
+
 Context | Request Context
 ',
     'delete'  				=> 'Sil',

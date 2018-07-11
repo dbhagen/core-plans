@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Tôi đã quên mật khẩu của tôi',
     'remember_me'                   => 'Ghi nhớ tôi',
     ];
-

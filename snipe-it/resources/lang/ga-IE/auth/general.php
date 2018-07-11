@@ -9,4 +9,3 @@ return [
     'forgot_password'               => 'Rinne mé dearmad ar mo phasfhocal',
     'remember_me'                   => 'Cuimhnigh orm',
     ];
-

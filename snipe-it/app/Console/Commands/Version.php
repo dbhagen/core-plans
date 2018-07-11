@@ -118,7 +118,7 @@ class Version extends Command
                 'branch' => $git_branch),
             true
         );
-        
+
 
 
         // Construct our file content

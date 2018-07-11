@@ -12,13 +12,13 @@
 
 #### Please confirm you have done the following before posting your bug report:
 
-- [ ] I have enabled debug mode 
+- [ ] I have enabled debug mode
 - [ ] I have read [checked the Common Issues page](https://snipe-it.readme.io/docs/common-issues)
 
 -----
 #### Provide answers to these questions:
 
-- Is this a fresh install or an upgrade? 
+- Is this a fresh install or an upgrade?
 - Version of Snipe-IT you're running
 - Version of PHP you're running
 - Version of MySQL/MariaDB you're running
